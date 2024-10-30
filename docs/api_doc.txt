@@ -1,0 +1,22 @@
+
+PIPs NECESSÁRIOS:
+
+    pip install -r requirements.txt
+
+RODANDO API:
+
+    uvicorn main:app --reload
+
+
+ACESSANDO LOCALHOST:
+
+    http://127.0.0.1:8000/
+
+
+ACESSANDO DOCUMENTAÇÃO: 
+    
+    http://127.0.0.1:8000/docs
+
+TESTANDO API
+
+    pytest test_server.py
